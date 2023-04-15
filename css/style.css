@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postcard{
+    width: 600px;
+    height: 350px;
+    background-color: #fff;
+}
+.postcard > .postcard-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.postcard > .postcard-header > h1{
+    text-shadow: 2px 2px 5px grey;
+    
+}
+
+.postcard > .postcard-header > img{
+    width: 100px;
+    height: 100px;
+}
+
+.postcard > .postcard-body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postcard > .postcard-body > .postcard-body-left{
+    width: 50%;
+    padding: 10px;
+}
+
+.postcard > .postcard-body > .postcard-body-left > p{
+    font-family: "Poppins";
+
+}
+
+.postcard > .postcard-body > .postcard-body-right{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.postcard > .postcard-body > .postcard-body-right > input[type=text]{
+   border: 0;
+   border-bottom: 1px solid grey;
+   font-size: 20px;
+   font-family: "poppins";
+   margin-bottom: 10px;
+}
+
+.postcard > .postcard-footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.postcard > .postcard-footer > button{
+    width: 160px;
+    height: 30px;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border: 0;
+}
